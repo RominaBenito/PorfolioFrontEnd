@@ -4,62 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Porfolio Romina Benito</title>
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 <link rel="stylesheet" href="estilos.css">
+
+<script src="https://kit.fontawesome.com/7abca58b0b.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header>
-        <div class="conteiner">
-            <div classe="logo" ></div>
-            <div class="banner"></div>
-            <div class="redes_sociales">
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-                <a href="">Linkein</a>
-                <a href="">Twitter</a>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fuid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/APLogo-20-20.png" alt="argentina Programa Logo"  class="img-logo">
+                </a>
+            </div>         
+                <div class="redes_sociales">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item" ><a href="https://www.facebook.com/ro.rominuchis" target="blanck"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                        <li class="list-group-item"><a href="https://www.instagram.com/min_ro_/" target="blanck"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                        <li class="list-group-item"><a href="https://www.linkedin.com/in/romina-benito-401b78249/" target="blanck"><i class="fa-brands fa-linkedin-in text-white"></i></i></a></li>
+                        <li class="list-group-item"><a href="https://twitter.com/min_ro396" target="blanck"><i class="fa-brands fa-twitter text-white"></i></a></li>
+                        <li class="list-group-item"><a href="https://github.com/RominaBenito" target="blanck"><i class="fa-brands fa-github text-white"></i></a></li>
+                        <li class="list-group-item">
+                        <!-- boton del login -->
+                            <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-user-lock text-white"></i>
+                        </li>
+                    </ul>                
+                </div>
+        </nav>   
+        
+        
+<section class="banner">
+    <div class="img-banner">
+        <img src="./img/8cca13ffa0d0dad32fc34f03fa9271d5.jpg" alt="imagen tecnología" class="img-fluid">
+    </div>          
+</section>
+<section class="presentacion">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-9">
+                
             </div>
-            <div class="boton_login"></div> 
+            <div class="col-3">
+                <img src="./img/foto perfil.jpeg" alt="foto de perfil" class="rounded-circle img-fluid img-perfil">
+            </div>
         </div>
+    </div>
+</section>
+
+
+
+<!-- login -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                    </div>
+                </form>
+            </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
+                    </div>
+        </div>
+    </div>
+</div>
+       
+
+
+          
+
+
+
+
+
+
+
+
+
+
     </header>
 
-<div class="conteiner_acercade">
 
-    <div>
-        <img src="" alt="">
-    </div>
-    <div>
-        <p>
-
-        </p>
-    </div>
-</div>
-<div container_experiencia>
-    <div>
-        <p>
-
-        </p>
-    </div>
-
-</div>
-<div class="container_educacion">
-    <div>
-        <p>
-
-        </p>
-    </div>
-</div>
-
-<div class="container_skills">
-    <div class="visualizaciones">
-
-    </div>
-</div>
-<div class="proyectos">
-    <p>
-        
-    </p>
-
-</div>
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
