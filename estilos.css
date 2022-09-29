@@ -69,3 +69,12 @@ margin: 0px;
 width: 210px;
 height: 200px;
 }
+
+
+.login-estilo {
+    height: 83vh;
+}
+
+.form-login {
+    margin-top: 9%;
+}
