@@ -9,6 +9,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 <link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="script.js">
 
 <script src="https://kit.fontawesome.com/7abca58b0b.js" crossorigin="anonymous"></script>
 
@@ -38,38 +39,101 @@
         
     </header>        
     <section class="banner">
-    <div class="img-banner">
-        <img src="./img/imagen4.jpg" alt="imagen tecnología" class="img-fluid">
+    <div>
+        <h2 class= "titulo" >Hello Word!</h2>
     </div>          
     </section>
-    <section class="presentacion" mt-5>
-    <div class="container text-center contenedor-presentacion">
+
+    <section class="presentacion">
+    <div class="text-center contenedor-presentacion">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 mt-4">
                 <img src="./img/foto perfil.jpeg" alt="foto de perfil" class="rounded-circle img-fluid img-perfil">  
             </div>
-            <div class="col-10">
-                
+            <div class="col-10 mt-3 text-presentacion">
+                <h3>Romina Giselle Benito</h3>
+                <h4>FULL STACK  DEVELOPER JR.</h4>
+                <p>Abogada recibida de la Universidad Nacional de la Matanza. Ejerzo la profesión en forma independiente.
+                Incursionando en el area de la tecnología, encontré un nuevo interés que me motivó de tal manera que decidí un cambio de profesión.
+                En la actulidad me encuentro realizando cursos y he ingresado a la Universidad nuevamente a fin de poder adquirir los conocimientos necesarios tanto en el area del desarrollo web como en el de análisis de datos. 
+                </p>
             </div>
         </div>
     </div>
     </section>
 
-    <section class="presentacion" mt-5>
-    <div class="container text-center contenedor-presentacion">
+
+    <section class="experiencia" mt-5>
+        <h2><span>Experiencia</span></h2>
+    <div class="container  contenedor-experciencia">
         <div class="row">
             <div class="col-9">
-                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ea sapiente! Consectetur perferendis totam ex, tenetur a autem, dicta ipsam eius eum aut pariatur reprehenderit ipsum consequuntur mollitia expedita accusantium!</p>
             </div>
-            <div class="col-3">
-                
+            <div class="col-3">  
             </div>
         </div>
     </div>
     </section>
 
-    <section class="presentacion" mt-5>
-    <div class="container text-center contenedor-presentacion">
+    <section class="educacion" mt-5>
+        <h2><span>Educación</span></h2>
+        <div class="container contenedor-educacion">
+            <div class="row">
+                <div class="col-9">
+                    <ul>
+                        <li>Univerdidad Nacional de Hurlingam - Tecnicatura Universitaria en Informática  comienzo de la cursada año 2023 </li>
+                        <li>Curso Argentina Programa- Full Stuck DEveloper Jr. Febrero 2022- Enero 2023</li>
+                        <li>curso Codo a dodo 4.0 Big data agosto 2022 hasta diciembre 2022</li>
+                        <li><a href="https://www.unlam.edu.ar/" target="_blank">Univerdidad Nacional de la Matanza </a> abogacía año 2014</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section class="skills" mt-5>
+        <h2 ><span>Haard & Soft Skills</span></h2>
+        <div class="contenedor-skills">
+            <div class="row">
+                <div class="col-9">
+                    <div class="circular-progress">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="numero">
+                                   90% <br>
+                                    HTML
+                                </div>
+
+                            </div>
+                        </div>   
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                            </defs>
+                            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                   
+                        
+
+
+                    </div>
+                </div>
+                <div class="col-3">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="proyectos" mt-5>
+    <h2><span>Proyectos</span></h2>
+    <div class="container contenedor-proyectos">
         <div class="row">
             <div class="col-9">
                 
@@ -77,29 +141,16 @@
             <div class="col-3">
                
             </div>
-        </div>
     </div>
-    </section>
-
-    <section class="presentacion" mt-5>
-    <div class="container text-center contenedor-presentacion">
-        <div class="row">
-            <div class="col-9">
-                
-            </div>
-            <div class="col-3">
-            
-            </div>
-        </div>
-    </div>
-    </section>
+</div>
+</section>
 
  <!-- login -->
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -121,7 +172,7 @@
     </div>
     </div>
 
-<footer class="bg-black text-white text-center fx-6">
+<footer class="bg-black text-white text-center fx-5">
     <div class="pt-3">
         <p>&copy Copyright Romina Giselle Benito 2022</p>
     </div>
