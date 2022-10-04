@@ -100,15 +100,23 @@ height: 150px;
     font-family: Arial, Helvetica, sans-serif;
     color:#F5F5F5; 
  }
+ .skills{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#F5F5F5; 
+ }
+ .proyectos{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#F5F5F5; 
+ }
 .contenedor-skills {
-    display: flex;
-    align-content: left;
-    justify-content: left;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
 }
+
 .circular-progress {
     width: 160px;
     height: 160px;
-    /* background-color: cornflowerblue; */
     position: relative;
 }
 
@@ -139,7 +147,7 @@ height: 150px;
     color:#F5F5F5;
 }
 
-circle {
+.circle-html {
     fill: none;
     stroke: url(#GradientColor);
     stroke-width: 20px;
@@ -148,9 +156,6 @@ circle {
     animation: anim 2s linear forwards;
 }
 
-circle:hover{
- 
-}
 
 svg {
     position: absolute;
@@ -160,5 +165,46 @@ svg {
  @keyframes anim{
     100% {
         stroke-dashoffset: 90;  
+    }
+ }
+ 
+ .circle-css {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 3s linear forwards;
+}
+@keyframes anim2{
+    100% {
+        stroke-dashoffset: 150;  
+    }
+ }
+ 
+ .circle-js {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 4s linear forwards;
+}
+@keyframes anim3{
+    100% {
+        stroke-dashoffset: 150;  
+    }
+ }
+ .circle-boot {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim4 5s linear forwards;
+}
+@keyframes anim4{
+    100% {
+        stroke-dashoffset: 260;  
     }
  }
